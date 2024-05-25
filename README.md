@@ -1,14 +1,15 @@
-# Java task
-## Описание проекта
+# Java Task
 
-Данный проект реализует задачу обработки текстового файла на языке Java. Основная цель — изменение букв в тексте с последующим подсчётом количества гласных и согласных букв. Программа разработана для работы с текстом на кириллице, что может быть полезно в задачах обработки текстовых данных в русскоязычной среде.
+## Project Overview
 
-## Реализовано
+This project implements a task for processing a text file using Java. The primary goal is to modify the letters in the text and subsequently count the number of vowels and consonants. The program is designed to work with Cyrillic text, which can be useful for text data processing tasks in a Russian-speaking environment.
 
-- **Обработка текстового файла**: Программа читает текстовый файл, заменяет все гласные буквы на 'a' и все согласные буквы на 'м'. Результат записывается в новый файл. Работа осуществляется с текстом на кириллице.
+## Features Implemented
+
+- **Text File Processing**: The program reads a text file, replaces all vowels with 'a' and all consonants with 'м'. The result is saved to a new file. The processing is done with Cyrillic text.
   
-- **Подсчёт и вывод букв**: Программа подсчитывает количество гласных и согласных букв в новом файле и выводит эти значения на печать.
+- **Letter Count and Output**: The program counts the number of vowels and consonants in the new file and prints these values.
 
-## Использование
+## Usage
 
-Для запуска программы необходимо иметь установленную Java Runtime Environment (JRE). Исходный файл текста должен быть расположен в указанной директории. После запуска, программа прочитает исходный файл, выполнит обработку данных и сохранит результат в новый файл, а также выведет информацию о количестве гласных и согласных букв в консоль.
+To run the program, you need to have Java Runtime Environment (JRE) installed. The source text file should be located in the specified directory. After running the program, it will read the source file, process the data, save the result to a new file, and print the information about the number of vowels and consonants to the console.
